@@ -13,7 +13,6 @@
 
 **Explanation:**
    The system consists of two IR sensors for monitoring entry and exit counts.
-
     When IR1 detects an object, it sends a signal to the microcontroller, which increases the entry count and updates the LCD display.
     When IR2 detects an object, the microcontroller increases the exit count and updates the display accordingly.
     The occupancy count is calculated based on IN and OUT counts:
