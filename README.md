@@ -7,28 +7,46 @@
 
 
 **Requirments:**
+
 **hardware:** Microcontroller, IR sensor - IRM393, EEPROM - AT24C08, RTC - DS1307, LCD, LED, Connecting wires
+
 **software:** c,Embedded C
+
 **Tools:** Keil uvision IDE, Flash magic
 
+
 **Explanation:**
+
    The system consists of two IR sensors for monitoring entry and exit counts.
     When IR1 detects an object, it sends a signal to the microcontroller, which increases the entry count and updates the LCD display.
     When IR2 detects an object, the microcontroller increases the exit count and updates the display accordingly.
-    The occupancy count is calculated based on IN and OUT counts:
-        If the occupancy count is greater than 0, the LED turns ON.
-        If the occupancy count is 0, the LED turns OFF.
-    The real-time data (IN, OUT, and occupancy count) is stored in EEPROM, ensuring data retention.
-    An RTC module (DS1307) resets the count values every 24 hours for accurate daily monitoring.
+    
+   The occupancy count is calculated based on IN and OUT counts:
+        *If the occupancy count is greater than 0, the LED turns ON.
+        *If the occupancy count is 0, the LED turns OFF.
+   
+   The real-time data (IN, OUT, and occupancy count) is stored in EEPROM, ensuring data retention.
+   
+   An RTC module (DS1307) resets the count values every 24 hours for accurate daily monitoring.
 
-**uses:** power efficiency, crow management.
+
+**uses:** 
+
+1.power efficiency
+
+2.crow management.
 
 
 **Application:** 
-    1. Automated Entry/Exit manageent
-    2. Smart home automation
-    3. Industrial workplace
+
+   1. Automated Entry/Exit manageent
+   
+   2. Smart home automation
+   
+   3. Industrial workplace
 
 **Feature Enhacement:**
-    Intergrate with  mobile application.
-    AI-Based People Counting & Image Processing
+    
+   Intergrate with  mobile application.
+    
+   AI-Based People Counting & Image Processing
