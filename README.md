@@ -1,4 +1,4 @@
-**Project title:** g
+**Project title:** Bidirectional Visitor Counter by using I2C protocol
 
 
 **Description:** Developed a Bidirectional Visitor Counter utilizing the I2C protocol with the LPC2129 microcontroller for real-time people counting. This system enhances automation, security, and energy efficiency in malls, offices, hospitals, and public spaces. The microcontroller processes sensor data to track entry and exit counts, displaying results on an LCD. Ideal for smart building automation, security monitoring, and crowd management.
