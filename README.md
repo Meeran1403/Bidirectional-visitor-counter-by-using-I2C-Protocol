@@ -45,7 +45,7 @@
    
    3. Industrial workplace
 
-**Future Enhacement:**
+**Future Enhancement:**
     
    Intergrate with  mobile application.
     
